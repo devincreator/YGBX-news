@@ -10,6 +10,7 @@
 - 四板块边界与负面清单：[`references/editorial-policy.md`](.agents/skills/weekly-insurance-news/references/editorial-policy.md)
 - 原文核实和质量门槛：[`references/verification.md`](.agents/skills/weekly-insurance-news/references/verification.md)
 - v3 写作与 Word 规则：[`references/v3-format.md`](.agents/skills/weekly-insurance-news/references/v3-format.md)
+- Word排版参考（2026-10-16样稿）：[`references/template-reference-20261016.md`](.agents/skills/weekly-insurance-news/references/template-reference-20261016.md)
 - 每周操作流程：[`workflows/weekly-run.md`](.agents/skills/weekly-insurance-news/workflows/weekly-run.md)
 - OpenSpec 稳定需求：[`openspec/specs/weekly-news/spec.md`](openspec/specs/weekly-news/spec.md)
 
@@ -21,7 +22,7 @@
 
 ## 状态与边界
 
-- 本仓库初始化时并未提供实际 **v3 定稿 DOCX 模板**，因此规范已经写入，但具体封面、目录、编号、页眉页脚样式仍需以用户提供的真实模板为准，**不得假称已完成像素级排版适配**。
+- 已获得并研究 **2026-10-16 的《每周信息参考》Word 参考版**，封面、目录、正文、附表及国际部分的格式特征已经整理成参考文档；原始 Word 未上传仓库。样稿自身存在日期/目录/附表不同步问题，不能把它当作已校验母版。**当前尚未实现或验证自动化 Word 模板套版脚本**。
 - Skill 不自带联网检索能力；它规定如何使用运行环境内可用的检索、网页读取和文档编辑工具，不绑定名为 google 的专有工具。
 - 只有用户确认后才更新终稿；不擅自发送、公开发布或上传含内部内容的周报。
 - OpenSpec 仅用于管理 **规则变化**，不是每次周报制作都要执行的额外审批流程。
