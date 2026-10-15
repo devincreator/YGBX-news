@@ -1,0 +1,10 @@
+# Generated weekly editions and internal editorial data stay local by default.
+output/
+dist/
+tmp/
+*.docx
+*.doc
+*.pdf
+*.xlsx
+.DS_Store
+__pycache__/
