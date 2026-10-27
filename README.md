@@ -14,6 +14,10 @@
 - 每周操作流程：[`workflows/weekly-run.md`](.agents/skills/weekly-insurance-news/workflows/weekly-run.md)
 - OpenSpec 稳定需求：[`openspec/specs/weekly-news/spec.md`](openspec/specs/weekly-news/spec.md)
 
+## 已归档的新闻候选
+
+- [2026年10月16日至20日：国内四板块26条候选（原18条+新增8条）](weekly-candidates/2026-10-16_to_2026-10-20.md)（仅供筛选，尚非确认的Word终稿）
+
 ## 使用方式
 
 在支持项目级 Agent Skills 的代理环境中打开本仓库，说“按《每周信息参考》标准，找上周五至本周四四大板块的新闻”，即可调用 Skill。若当前客户端无法自动发现该目录，直接要求代理阅读上面的 SKILL.md 再执行。
